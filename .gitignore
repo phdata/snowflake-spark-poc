@@ -1,0 +1,7 @@
+.idea/
+.bsp/
+target/
+output/
+**/private*
+**/*.log
+.DS_Store*
