@@ -1,5 +1,5 @@
 # Snowflake Spark Examples
-The purpose of this repository is demonstrate using the [Snowflake Spark Connector](https://docs.snowflake.com/en/user-guide/spark-connector.html).
+The purpose of this repository is to demonstrate using the [Snowflake Spark Connector](https://docs.snowflake.com/en/user-guide/spark-connector.html).
 
 ## Requirements
 To execute the examples provided in this repository the user must first have a Snowflake account.  Snowflake provides a free 30 day or $400 account [here](https://signup.snowflake.com/) if one is not available.
