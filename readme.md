@@ -26,8 +26,9 @@ In order to execute the [snowflake-setup.sql](src/main/resources/snowflake-setup
     3. Add new connection [configuration](https://docs.snowflake.com/en/user-guide/snowsql-config.html) for the newly created Snowflake user
 5. Load example datasets into Snowflake
     1. Navigate to the `src/main/resources` directory `cd <repo home>/src/main/resources`
-    2. Execute `snowsql -c <service account connection> -f snowflake-load.sql`
-    3. Log into Snowflake and verify the results in the `SPARK_DEMO.EMPLOYEES` database and schema
+    2. Modify the `<path>` place holder to reference this repository's directory path 
+    3. Execute `snowsql -c <service account connection> -f snowflake-load.sql`
+    4. Log into Snowflake and verify the results in the `SPARK_DEMO.EMPLOYEES` database and schema
 
 # Environment Setup
 Import the `snowflake-spark-poc` repository into a new [Intellij project](https://www.jetbrains.com/help/idea/sbt-support.html).

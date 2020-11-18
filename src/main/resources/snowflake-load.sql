@@ -28,9 +28,9 @@ FILE_FORMAT = (
     TYPE = CSV
     SKIP_HEADER = 1 );
 
-PUT file:///Users/troy/workspace/clients/snowflake-spark-poc/data/csv/employees/employees.csv @employees_stg/employees/employees.csv auto_compress = true;
-PUT file:///Users/troy/workspace/clients/snowflake-spark-poc/data/csv/departments/departments.csv @employees_stg/departments/departments.csv auto_compress = true;
-PUT file:///Users/troy/workspace/clients/snowflake-spark-poc/data/csv/dept_emp/dept_emp.csv @employees_stg/dept_emp/dept_emp.csvc auto_compress = true;
+PUT file:///<path>/snowflake-spark-poc/data/csv/employees/employees.csv @employees_stg/employees/employees.csv auto_compress = true;
+PUT file:///<path>/snowflake-spark-poc/data/csv/departments/departments.csv @employees_stg/departments/departments.csv auto_compress = true;
+PUT file:///<path>/snowflake-spark-poc/data/csv/dept_emp/dept_emp.csv @employees_stg/dept_emp/dept_emp.csvc auto_compress = true;
 
 COPY INTO employees FROM @employees_stg/employees;
 COPY INTO departments FROM @employees_stg/departments;
